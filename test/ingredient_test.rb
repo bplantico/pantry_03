@@ -14,7 +14,7 @@ class IngredientTest < Minitest::Test
 
   def test_it_has_attributes
     assert_equal "sugar", @sugar.name
-    assert_equal "C", @sugar.unit_of_measure
+    assert_equal "C", @sugar.unit
     assert_equal 773, @sugar.calories
   end
 

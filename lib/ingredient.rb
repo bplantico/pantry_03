@@ -1,11 +1,11 @@
 class Ingredient
-    attr_reader :name,
-                 :unit_of_measure,
+    attr_reader  :name,
+                 :unit,
                  :calories
 
-  def initialize(name, unit_of_measure, calories)
+  def initialize(name, unit, calories)
     @name = name
-    @unit_of_measure = unit_of_measure
+    @unit = unit
     @calories = calories
   end
 
